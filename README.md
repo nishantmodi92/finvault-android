@@ -1,17 +1,17 @@
-🏦  FitPulse – Personal Health & Fitness Tracker
+🏦   FinVault – Secure Personal Finance Manager
 <p> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FEC007?style=for-the-badge&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Room-9C27B0?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hilt-4A148C?style=for-the-badge"/> <img src="https://img.shields.io/badge/Retrofit-FF6D00?style=for-the-badge"/> </p>
 
 📊 Key Metrics
 
-💪 Tracks steps, calories, sleep, and workouts
+💰 Tracks transactions, budgets, and expenses
 
-⚡ Real-time data sync (<300ms)
+⚡ Real-time sync (<300ms)
 
-📈 20K+ active users
+🔒 AES-256 encryption for all transactions
 
-🟢 98% crash-free stability
+🟢 99% crash-free
 
-🔄 Offline-first logging with conflict resolution
+🌍 15K+ active users
 
 🏗 Architecture
 
@@ -21,40 +21,40 @@ Offline-first Room DB + Firestore sync
 
 Modular Compose UI components
 
-REST API for health tips & wearable integration
+REST/GraphQL + gRPC for secure backend
 
-Event-driven background services for real-time updates
+Event-driven notifications for alerts & reminders
 
 🧩 Core Features
 
-Step, sleep, and workout tracking
+Transaction & budget tracking
 
-Health goal setting & progress visualization
+Visual analytics & charts
 
-Notifications & reminders
+Real-time alerts & notifications
 
-Offline-first logging and auto-sync
+Offline-first recording & syncing
 
-Wearable integration (optional)
+Multi-account support with encryption
 
 🚀 Impact
 
-25% higher engagement for fitness goals
+Increased financial awareness & tracking for users
 
-Zero data loss even offline
+Zero data loss with offline-first design
 
-Scalable architecture for future modules
+Secure, compliant, and scalable for production
 
-Smooth real-time UI & charts
+20% faster performance on heavy data loads
 
 🧪 Testing & CI/CD
 
 Unit & UI tests
 
-Offline-first reliability testing
+Security & encryption tests
 
 GitHub Actions + Fastlane
 
-Firebase Crashlytics & Performance monitoring
+Crashlytics & Performance monitoring
 
-🔗 GitHub: github.com/nishantmodi92/fitpulse-android
+🔗 GitHub: github.com/nishantmodi92/finvault-android
