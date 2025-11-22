@@ -1,42 +1,60 @@
-🏦  FinMate – Secure Digital Wallet
-Summary
+🏦  FitPulse – Personal Health & Fitness Tracker
+<p> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FEC007?style=for-the-badge&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Room-9C27B0?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hilt-4A148C?style=for-the-badge"/> <img src="https://img.shields.io/badge/Retrofit-FF6D00?style=for-the-badge"/> </p>
 
-FinMate is a secure digital wallet application that allows instant money transfers, fraud detection, and real-time analytics — ensuring high security and compliance.
+📊 Key Metrics
 
-Tech Stack
+💪 Tracks steps, calories, sleep, and workouts
 
-Kotlin, Firebase (Auth, Firestore), GraphQL, Play Integrity API, Clean Architecture, Hilt, MVVM.
+⚡ Real-time data sync (<300ms)
 
-Key Metrics
+📈 20K+ active users
 
-$10M+ annual transaction volume
+🟢 98% crash-free stability
 
-60% fraud reduction
+🔄 Offline-first logging with conflict resolution
 
-99.9% uptime
+🏗 Architecture
 
-Fully PCI-DSS compliant
+MVVM + Clean Architecture + Multi-Module
 
-<400 ms transaction latency
+Offline-first Room DB + Firestore sync
 
-Architecture
+Modular Compose UI components
 
-Clean Architecture with layered design. GraphQL for efficient querying, Firebase for user authentication, and Room caching for offline transaction history.
+REST API for health tips & wearable integration
 
-Core Features
+Event-driven background services for real-time updates
 
-Biometric authentication and Play Integrity validation
+🧩 Core Features
 
-Transaction history with real-time balance updates
+Step, sleep, and workout tracking
 
-Instant money transfer
+Health goal setting & progress visualization
 
-Analytics dashboard
+Notifications & reminders
 
-Secure push notifications
+Offline-first logging and auto-sync
 
-Impact
+Wearable integration (optional)
 
-Maintained zero security breaches and passed all GDPR & PCI audits without compliance issues.
+🚀 Impact
 
-🔗 GitHub: FinMate Repository
+25% higher engagement for fitness goals
+
+Zero data loss even offline
+
+Scalable architecture for future modules
+
+Smooth real-time UI & charts
+
+🧪 Testing & CI/CD
+
+Unit & UI tests
+
+Offline-first reliability testing
+
+GitHub Actions + Fastlane
+
+Firebase Crashlytics & Performance monitoring
+
+🔗 GitHub: github.com/nishantmodi92/fitpulse-android
