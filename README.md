@@ -1,41 +1,41 @@
-<h1 align="center">FinMate — Personal Finance & Expense Manager</h1>
+# FinMate – Personal Finance & Expense Tracking App
+
+## 🚀 Overview
+FinMate is a smart finance tracker for expenses, budgets, category insights, charts, reminders, and offline storage.
 
 ---
 
-## Badges
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue)
-![Charts](https://img.shields.io/badge/Charts-Enabled-success)
+## 🛠 Tech Stack
+- Kotlin  
+- Compose  
+- Room  
+- WorkManager  
+- Hilt  
+- Clean Architecture  
 
 ---
 
-## Overview
-A personal finance management system that helps users control expenses, budgets, savings, and insights.
+## ⭐ Features
+- Add & track expenses  
+- Category-based insights  
+- Monthly budgets  
+- Offline mode  
+- Background backup sync  
+- Analytics dashboard  
 
 ---
 
-## Features
-- Expense tracking  
-- Budget planner  
-- Monthly insights  
-- Pie/bar charts  
-- Offline-friendly  
+## Room Schema
+```kotlin
+@Entity(tableName = "expenses")
+data class Expense(
+  @PrimaryKey val id: String,
+  val category: String,
+  val amount: Double,
+  val timestamp: Long
+)
+Performance
 
----
+Cached analytics
 
-## Architecture
-
-UI → ViewModel → Repository → Room Database
-
-
-
----
-
-## Installation
-```bash
-git clone https://github.com/nishantmodi92/finvault-android
-
-
-Author
-
-Nishant Modi
-
+Compose charts
